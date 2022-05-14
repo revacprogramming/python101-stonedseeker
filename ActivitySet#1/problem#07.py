@@ -1,20 +1,18 @@
 # Strings
 
 # text = "X-DSPAM-Confidence:    0.8475"
-fname = input("Enter File Name")
-fh = open(fname)
-count = 0
-total = 0
-for line in fh:
+count = 0;
+total = 0;
+fname = input("Enter file name\n")
+f = open(fname)
+for line in f:
     if line.startswith("X-DSPAM-Confidence:"):
-        count += 1
-        x = line.find(":")
-        y = line[x+1:]
-        s = float(y)
-        total = total + s 
-        continue
-    average = total / count
+        count = count + 1
+        i = line.find(":")
+        data = float(line[i+1:])
+        total += data
 
-    print("Average spam confidence:",average)
+avg = (total/count)
 
-fh.close
+print("Average spam confidence:",avg)
+f.close

@@ -22,7 +22,7 @@ for tag in tags:
 sum = 0
 for i in range(0,len(x)):
     sum = sum + int(numbers[i])
-
+ 
 print(sum)
 
 # print(str(fhand))

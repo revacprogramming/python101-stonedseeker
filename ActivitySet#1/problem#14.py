@@ -5,10 +5,6 @@ import urllib.request, urllib.parse, urllib.error
 import re
 from bs4 import BeautifulSoup
 #counts = dict()
-fhand = urllib.request.urlopen('http://py4e-data.dr-chuck.net/comments_1397976.html')
-
-import urllib.request, urllib.parse, urllib.error
-from bs4 import BeautifulSoup
 
 url = 'http://py4e-data.dr-chuck.net/comments_1397976.html'
 html = urllib.request.urlopen(url).read()

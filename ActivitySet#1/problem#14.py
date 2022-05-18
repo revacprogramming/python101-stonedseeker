@@ -13,11 +13,12 @@ soup = BeautifulSoup(html, 'html.parser')
 tags = soup('span')
 
 for tag in tags:
-    numbers = re.findall('[0-9]+',str(tags))
+ numbers = re.findall('[0-9]+',str(tags))
 
 sum = 0
+
 for i in range(0,len(x)):
-    sum = sum + int(numbers[i])
+ sum = sum + int(numbers[i])
  
 print(sum)
 

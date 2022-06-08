@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
@@ -49,3 +50,6 @@ while True:
     print('lat', lat, 'lng', lng)
     location = js['results'][0]['formatted_address']
     print(location)
+=======
+ 
+>>>>>>> 81ea93cf55ff3b4a15b73c140f5184a6f0bd29f9

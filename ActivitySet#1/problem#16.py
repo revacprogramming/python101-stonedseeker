@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # Databases
 # # https://www.py4e.com/lessons/database
 
@@ -258,6 +259,10 @@
 #     count_list.append(num)
 
 # print(f"Sum: {sum(count_list)}")
+=======
+# Databases
+# https://www.py4e.com/lessons/database
+>>>>>>> 81ea93cf55ff3b4a15b73c140f5184a6f0bd29f9
 
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -277,4 +282,7 @@ for i in counts:
     lst.append(num)
 
 print(f"sum = {sum(lst)}")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 81ea93cf55ff3b4a15b73c140f5184a6f0bd29f9

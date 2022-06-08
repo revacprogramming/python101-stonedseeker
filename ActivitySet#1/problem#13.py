@@ -1,6 +1,12 @@
 # Network Programming
 # https://www.py4e.com/lessons/network
 
+<<<<<<< HEAD
+=======
+# Network Programming
+# https://www.py4e.com/lessons/network
+
+>>>>>>> 81ea93cf55ff3b4a15b73c140f5184a6f0bd29f9
 import socket
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

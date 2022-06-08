@@ -4,10 +4,11 @@ def add(a, b):
 
 
 def main():
-    a = int (input ("Enter a number here"))
-    b = int (input ("Enter a number here"))
+    a = int(input("Enter a number here"))
+    b = int(input("Enter a number here"))
 
     c = add(a, b)
     print(c)
+
 
 main()

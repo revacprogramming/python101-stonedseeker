@@ -1,5 +1,11 @@
 # Regular Expressions
 # https://www.py4e.com/lessons/regex
+<<<<<<< HEAD
+=======
+
+# Regular Expressions
+# https://www.py4e.com/lessons/regex
+>>>>>>> 81ea93cf55ff3b4a15b73c140f5184a6f0bd29f9
 import re
 dataFormat = '''This file contains the actual data for your assignment - good luck!
 

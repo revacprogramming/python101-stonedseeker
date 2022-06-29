@@ -1,8 +1,8 @@
 
 
 def get_cs():
-    """get string input"""
-
+    str = input("Enter a string\n")
+    return str
 
 def cs_to_lot(cs):
     """convert connected string to list of strings"""

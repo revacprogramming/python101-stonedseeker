@@ -1,26 +1,44 @@
-
-
 def get_cs():
-    str = input("Enter a string\n")
-    return str
-
-def cs_to_lot(cs):
-    """convert connected string to list of strings"""
+    cs = input("Enter a string\n")
+    return cs
 
 
-def lot_to_cs(lot):
-    """convert list of strings to connected string"""
+def cs_to_lst(cs):
+    lstofstr = (list(cs.split(";")))
+    lyst = list()
+    print(list)
+
+    for i in range(len(lstofstr)):
+        lyst.append(tuple((lstofstr[i].split('='))))
+    return lyst
+
+
+def lst_to_cs(lst):
+    print(lst)
+    for i in range(len(lst)):
+        print(len(lst))
+        lst1 = lst[i][i]
+        lst2 = lst[i][i+1]
+        print(lst1,"=",lst2)
+        
+#str = ([tup[0] for tup in yourList])
 
 
 def main():
-    cs=get_cs()
+    cs = get_cs()
 
-    lot=cs_to_lot(cs)  # convert connect string to list of tuples
-    print(lot)
+    lst = cs_to_lst(cs)  # convert connect string to list of tuples
 
-    cs=lot_to_cs(lot)  # convert list of strings to connect string
-    print(cs) 
+    cs = lst_to_cs(lst)  # convert list of strings to connect string
 
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     main()
+
+# [('system','s'),('database','d'),('username','u'),('passwd','p')]
+# system=s;database=d;username=u;passwd=p
+
+# yourList = [('and', 44023), ('cx', 37711), ('is', 36777)]
+# str = ([tup[0] for tup in yourList])
+
+# print(str)

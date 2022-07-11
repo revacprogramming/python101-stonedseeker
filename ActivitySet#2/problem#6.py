@@ -1,17 +1,17 @@
-# class Menu:
-#     def add(self, add,num):
-#         self.add = add
-#         self.num = num
+class Menu:
+    def add(self, add,num):
+        self.add = add
+        self.num = num
         
-#     def show(self):
-#         return self.add
+    def show(self):
+        return self.add
 
 
-# m = Menu()  # Menu is a class
-# m.add("idly", 10)
-# m.add("vada")
+m = Menu()  # Menu is a class
+m.add
+m.add("vada")
 
-# print(m.show())
+print(m.show())
 
 
 #adas
@@ -36,12 +36,13 @@
 
 #em
 
-class Human:
-    animal = "Human"
+# class Human:
+#     animal = "Human"
 
-    def __init__(self, race):
+#     def __init__(self, race):
 
-        self.race = race
+#         self.race = race
 
-    def setcolor(self, color):
-        self7
+#     def setcolor(self, color):
+#         self7
+
